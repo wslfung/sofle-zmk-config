@@ -2,10 +2,12 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
+    - name: hyx0329
+      url-base: https://github.com/hyx0329
   projects:
     - name: zmk
       remote: zmkfirmware
-      revision: main
+      revision: soft-poweroff
       import: app/west.yml
   self:
     path: config

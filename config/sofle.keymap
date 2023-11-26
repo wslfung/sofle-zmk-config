@@ -91,11 +91,11 @@
 // |       |      |      |       |       |      |      |  |      |      |  1   |   2   |  3   |   /   |       |
 // |       |      |      |       |       |      |      |  |      |  0   |  .   |       |      |
             bindings = <
-&trans  &trans   &trans  &trans  &trans  &trans                    &trans    &trans       &kp N8      &trans      &trans        &kp MINUS
-&trans  &trans   &trans  &trans  &trans  &trans                    &trans    &kp KP_N7    &kp KP_N8   &kp KP_N9   &trans        &trans
-&trans  &trans   &trans  &trans  &trans  &trans                    &trans    &kp KP_N4    &kp KP_N5   &kp KP_N6   &kp KP_PLUS   &kp KP_EQUAL
-&trans  &trans   &trans  &trans  &trans  &trans   &none   &none    &trans    &kp KP_N1    &kp KP_N2   &kp KP_N3   &kp FSLH      &trans
-                 &trans  &trans  &trans  &trans   &trans  &trans   &kp KP_N0 &kp KP_DOT   &trans      &trans
+&trans  &trans   &trans  &trans  &trans  &trans                              &trans    &trans       &kp N8      &trans      &trans        &kp MINUS
+&trans  &trans   &trans  &trans  &trans  &trans                              &trans    &kp KP_N7    &kp KP_N8   &kp KP_N9   &trans        &trans
+&trans  &trans   &trans  &trans  &trans  &trans                              &trans    &kp KP_N4    &kp KP_N5   &kp KP_N6   &kp KP_PLUS   &kp KP_EQUAL
+&trans  &trans   &trans  &trans  &trans  &trans   &soft-poweroff             &none     &trans    &kp KP_N1    &kp KP_N2   &kp KP_N3   &kp FSLH      &trans
+                 &trans  &trans  &trans  &trans   &trans           &trans    &kp KP_N0 &kp KP_DOT   &trans      &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_RW C_FF &inc_dec_kp LC(PLUS) LC(MINUS)>;
