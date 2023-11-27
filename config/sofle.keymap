@@ -60,7 +60,7 @@
 &kp ESC    &kp N1        &kp N2       &kp N3       &kp N4            &kp N5                                     &kp N6     &kp N7            &kp N8       &kp N9       &kp N0           &kp MINUS
 &kp TAB    &kp Q         &kp W        &kp E        &kp R             &kp T                                      &kp Y      &kp U             &kp I        &kp O        &kp P            &kp BSLH
 &kp BSPC   &bmt LCTRL A  &bmt LALT S  &bmt LGUI D  &bmt LC(LSHFT) F  &kp G                                      &kp H      &bmt RC(RSHFT) J  &bmt RGUI K  &bmt RALT L  &bmt RCTRL SEMI  &kp SQT
-&kp LSHFT  &kp Z         &kp X        &kp C        &kp V             &kp B      &kp C_MUTE    &soft_off         &kp N      &kp M             &kp COMMA    &kp DOT      &kp FSLH         &kp RSHFT
+&kp LSHFT  &kp Z         &kp X        &kp C        &kp V             &kp B      &kp C_MUTE    &kp LC(T)         &kp N      &kp M             &kp COMMA    &kp DOT      &kp FSLH         &kp RSHFT
                          &kp RET      &kp SPACE    &none             &mo LOWER  &mo RAISE     &kp DEL           &kp SPACE  &kp RET           &mo RAISE    &mo LOWER
             >;
 
@@ -120,11 +120,11 @@
 
             label = "sys";
             bindings = <
-&bt BT_CLR       &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2     &bt BT_SEL 3     &bt BT_SEL 4                         &kp CLCK  &kp KP_NLCK  &kp SLCK  &none   &none  &out OUT_TOG
-&none            &rgb_ug RGB_HUD  &rgb_ug RGB_HUI  &rgb_ug RGB_SAD  &rgb_ug RGB_SAI  &rgb_ug RGB_EFF                      &none     &none        &none     &none   &none  &none
-&none            &rgb_ug RGB_BRD  &rgb_ug RGB_BRI  &none            &none            &none                                &none     &none        &none     &none   &none  &none
-&rgb_ug RGB_TOG  &none            &none            &none            &none            &none            &soft_off    &none  &none     &none        &none     &none   &none  &soft_off
-                                  &none            &none            &none            &trans           &trans       &none  &none     &none        &trans    &trans
+&bt BT_CLR       &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2     &bt BT_SEL 3     &bt BT_SEL 4                               &kp CLCK  &kp KP_NLCK  &kp SLCK  &none   &none  &out OUT_TOG
+&none            &rgb_ug RGB_HUD  &rgb_ug RGB_HUI  &rgb_ug RGB_SAD  &rgb_ug RGB_SAI  &rgb_ug RGB_EFF                            &none     &none        &none     &none   &none  &none
+&none            &rgb_ug RGB_BRD  &rgb_ug RGB_BRI  &none            &none            &none                                      &none     &none        &none     &none   &none  &none
+&rgb_ug RGB_TOG  &none            &none            &none            &none            &none            &soft_off    &soft_off    &none     &none        &none     &none   &none  &none
+                                  &none            &none            &none            &trans           &trans       &none        &none     &none        &trans    &trans
             >;
         };
 
