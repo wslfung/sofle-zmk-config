@@ -112,11 +112,11 @@
 
         adjust_layer {
             // ----------------------------------------------------------------------------------------------------------------------------
-            // | BTCLR  |  BT1    |  BT2    |   BT3   |   BT4   |   BT5   |                  | CAPS | NUMS | SCLK  |      |       |       |
-            // | EXTPWR | RGB_HUD | RGB_HUI | RGB_SAD | RGB_SAI | RGB_EFF |                  |      |      |       |      |       |       |
-            // |        | RGB_BRD | RGB_BRI |         |         |         |                  |      |      |       |      |       |       |
-            // |        |         |         |         |         |         | RGB_TOG | |      |      |      |       |      |       |       |
-            //                    |         |         |         |         |         | |      |      |      |       |      |
+            // | BTCLR   |  BT1    |  BT2    |   BT3   |   BT4   |   BT5   |                         | CAPS | NUMS | SCLK  |      |       | OUT_TOG |
+            // |         | RGB_HUD | RGB_HUI | RGB_SAD | RGB_SAI | RGB_EFF |                         |      |      |       |      |       |         |
+            // |         | RGB_BRD | RGB_BRI |         |         |         |                         |      |      |       |      |       |         |
+            // | RGB_TOG |         |         |         |         |         | SOFT_OFF | |  SOFT_OFF  |      |      |       |      |       |         |
+            //                     |         |         |         |         |          | |            |      |      |       |      |
 
             label = "sys";
             bindings = <
