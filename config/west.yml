@@ -2,11 +2,11 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: wslfung
-      url-base: https://github.com/wslfung
+    - name: petejohanson
+      url-base: https://github.com/petejohanson
   projects:
     - name: zmk
-      remote: wslfung
+      remote: petejohanson
       revision: features/soft-off-take-2
       import: app/west.yml
   self:
