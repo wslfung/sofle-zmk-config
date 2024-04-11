@@ -8,8 +8,8 @@ manifest:
       url-base: https://github.com/petejohanson
   projects:
     - name: zmk
-      remote: wslfung
-      revision: features/soft-off-take-3
+      remote: zmkfirmware
+      revision: main
       import: app/west.yml
   self:
     path: config
