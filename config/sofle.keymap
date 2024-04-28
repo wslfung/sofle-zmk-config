@@ -33,7 +33,7 @@
       soff: soft_off {
         compatible = "zmk,behavior-soft-off";
         #binding-cells = <0>;
-      }
+      };
     };
 
    // Activate ADJUST layer by pressing raise and lower
