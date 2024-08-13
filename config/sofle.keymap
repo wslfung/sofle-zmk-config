@@ -53,11 +53,11 @@
             //               | GUI | ALT  | CTRL | LOWER|  RAISE |  | DEL   | SPACE| RET   | ALT   | GUI  |
 
             bindings = <
-&kp ESC    &kp N1        &kp N2       &kp N3       &kp N4        &kp N5                              &kp N6      &kp N7        &kp N8       &kp N9       &kp N0           &kp MINUS
-&kp TAB    &kp Q         &kp W        &kp E        &kp R         &kp T                               &kp Y       &kp U         &kp I        &kp O        &kp P            &kp BSLH
-&kp BSPC   &bmt LCTRL A  &bmt LALT S  &bmt LGUI D  &bmt LSHFT F  &kp G                               &kp H       &bmt RSHFT J  &bmt RGUI K  &bmt RALT L  &bmt RCTRL SEMI  &kp SQT
-&kp LSHFT  &kp Z         &kp X        &kp C        &kp V         &kp B      &kp C_MUTE    &none      &kp N       &kp M         &kp COMMA    &kp DOT      &kp FSLH         &kp RSHFT
-                         &none        &none        &kp ENTER     &mo LOWER  &mo RAISE     &kp SPACE  &kp DELETE  &mo 1         &none        &none
+&kp ESC    &kp N1        &kp N2       &kp N3       &kp N4        &kp N5                          &kp N6     &kp N7        &kp N8       &kp N9       &kp N0           &kp MINUS
+&kp TAB    &kp Q         &kp W        &kp E        &kp R         &kp T                           &kp Y      &kp U         &kp I        &kp O        &kp P            &kp BSLH
+&kp BSPC   &bmt LCTRL A  &bmt LALT S  &bmt LGUI D  &bmt LSHFT F  &kp G                           &kp H      &bmt RSHFT J  &bmt RGUI K  &bmt RALT L  &bmt RCTRL SEMI  &kp SQT
+&kp LSHFT  &kp Z         &kp X        &kp C        &kp V         &kp B      &kp C_MUTE    &none  &kp N      &kp M         &kp COMMA    &kp DOT      &kp FSLH         &kp RSHFT
+                         &none        &none        &kp ENTER     &mo LOWER  &mo RAISE     &mo 1  &kp SPACE  &kp DEL       &none        &none
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp LC(PG_DN) LC(PG_UP)>;
