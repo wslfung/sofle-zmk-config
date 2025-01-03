@@ -60,7 +60,7 @@
                          &kp LC(INS)  &kp LS(INS)  &kp ENTER     &mo LOWER  &mo RAISE     &mo 1  &kp SPACE  &kp DEL       &kp LC(PG_UP)  &kp LC(PG_DN)
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp LC(PG_DN) LC(PG_UP)>;
+            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp LC(PG_UP) LC(PG_DN) >;
         };
 
         lower_layer {
@@ -103,7 +103,7 @@
                 &trans  &trans  &trans  &trans  &trans    &trans  &kp KP_N0  &kp KP_DOT  &kp RET    &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp C_RW C_FF &inc_dec_kp LC(PLUS) LC(MINUS)>;
+            sensor-bindings = <&inc_dec_kp C_RW C_FF &inc_dec_kp LC(MINUS) LC(PLUS)>;
         };
 
         adjust_layer {
